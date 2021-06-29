@@ -1,0 +1,73 @@
+/* Everything Written here will only get triggered when our max-width is less than or equal to 1340px */
+/* jis width pr hmari website ajeeb si ho jaati hai uss width ko lena hota hai toh yaha 1340px pr hmari website unresponsive ho jaati hai */
+/* Navigation Bar */
+#navbar
+{
+    flex-direction: column;  /* size chotta hone pr navigation bar fold ho jayega */
+}
+#navbar ul li a 
+{
+    font-size: 0.9rem;
+    padding: 0px 7px;
+}
+/* Home Section */
+#home
+{
+    height: 360px;
+    padding: 3px 30px;
+}
+#home::before
+{
+    height: 485px;
+}
+#home p
+{
+    font-size: 13px;
+}
+
+/* Services Section */
+#services
+{
+    flex-direction: column;     
+}
+/* Client Section */
+#clients
+{
+    flex-wrap: wrap;
+}
+#clients img
+{
+    width: 140px;
+    padding: 3px 8px;
+    height: auto;
+}
+
+/* Contact Form Section */
+#contact-box input, #contact-box textarea
+{
+    padding: 20px;
+    width: 100%;
+    font-size: 25px;
+}
+#contact .btns
+{
+    width: 100%;
+    padding: 22px;
+    font-size: 25px;
+    margin-left: 22px;
+}
+#contact [type="reset"]
+{
+    width: 100%;
+    margin-left: 22px;
+}
+/* Utility Classes */
+.h-primary
+{
+    font-size: 50px;
+}
+.btn
+{
+    font-size: 0.9rem;
+    padding: 4px 8px;
+}
